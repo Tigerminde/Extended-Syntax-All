@@ -16,11 +16,10 @@ function getResult(a,b,c){
     let x = [];
     d = Math.pow(b,2) - (4 * a * c);
     
-    if (d == 0) {
+    if (d === 0) {
         x1 = (-b + Math.sqrt(d)) / (2 * a)
                       x.push(x1);
-    }
-    else if (d > 0) {
+    }else if (d > 0) {
         x1 = (- b - Math.sqrt(d)) / (2 * a)
                       x.push(x1);
                       x1 = (- b + Math.sqrt(d)) / (2 * a)
